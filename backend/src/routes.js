@@ -3,7 +3,7 @@ const router = express.Router();
 
 const PedidoController = require('./controller/PedidoController');
 
-router.get('/', PedidoController.index);
-router.post('/', PedidoController.save);
+router.get('/listarPedidos', PedidoController.index);
+router.post('/cadastrarPedido', PedidoController.save);
 
 module.exports = router;
