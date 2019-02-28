@@ -29,7 +29,7 @@ export default {
         getPedidoData(){
             this.Pedido = document.getElementById('pedido').value
             document.getElementById('concluir').disabled = false;
-            console.log(this.Pedido);  
+           // console.log(this.Pedido);  
         },
 
         savePedido(){
