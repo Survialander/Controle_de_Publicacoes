@@ -40,7 +40,7 @@ methods:{
     getDataPedido(){
         apiService.getPedido().then((data) => {
             this.Pedidos = data;
-            //console.log(this.Pedidos)
+           // console.log(this.Pedidos)
             })
         }
     }

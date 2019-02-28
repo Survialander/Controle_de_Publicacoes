@@ -7,8 +7,8 @@ module.exports = {
         return res.json(pedidos);
     },
     async save(req, res){
-        const pedidos = await Pedido.create(req.body);
-
-        return res.json(pedidos);
+        const pedido = await Pedido.create(req.body);
+        
+        return res.json(pedido);
     }
 }
