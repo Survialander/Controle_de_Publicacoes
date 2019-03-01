@@ -34,7 +34,8 @@ export default {
 
         savePedido(){
             apiService.salvarPedido(this.Pedido)
-        }
+            window.location.reload();
+        }   
     }
 }
 </script>
